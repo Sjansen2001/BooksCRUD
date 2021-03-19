@@ -34,7 +34,7 @@ app.use(cors());
 
 // Static directory path
 app.use(
-  express.static(path.join(__dirname, "dist/BooksCRUD"))
+  express.static(path.join(__dirname, "public/BooksCRUD"))
 );
 
 // API root
@@ -59,7 +59,7 @@ app.get("/", (req, res) => {
 
 app.get("*", (req, res) => {
   res.sendFile(
-    path.join(__dirname, "dist/BooksCRUD/index.html")
+    path.join(__dirname, "public/BooksCRUD/index.html")
   );
 });
 
