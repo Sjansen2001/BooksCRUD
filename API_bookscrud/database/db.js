@@ -1,3 +1,3 @@
 module.exports = {
-  db: "mongodb://localhost:27017/BooksDB",
+  db: "mongodb+srv://dbUser:Testje1@books.l8cla.mongodb.net/test",
 };
