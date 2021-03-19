@@ -1,5 +1,9 @@
 A CRUD application with Angular, Nodejs and Express
 
+cd APP_bookscrud then npm i
+cd ..
+cd API_bookscrud then npm i
+
 First start API then APP
 
 # AngularMeanCrudTutorial
