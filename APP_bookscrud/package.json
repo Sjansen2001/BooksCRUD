@@ -1,5 +1,5 @@
 {
-  "name": "angular-mean-crud-tutorial",
+  "name": "BooksCRUD",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

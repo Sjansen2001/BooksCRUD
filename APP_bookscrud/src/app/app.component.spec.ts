@@ -16,10 +16,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-mean-crud-tutorial'`, () => {
+  it(`should have as title 'BooksCRUD'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-mean-crud-tutorial');
+    expect(app.title).toEqual('BooksCRUD');
   });
 
   it('should render title', () => {
@@ -27,7 +27,7 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
     expect(compiled.querySelector('.content span').textContent).toContain(
-      'angular-mean-crud-tutorial app is running!'
+      'BooksCRUD app is running!'
     );
   });
 });

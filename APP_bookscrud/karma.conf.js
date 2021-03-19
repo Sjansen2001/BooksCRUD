@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular-mean-crud-tutorial'),
+      dir: require('path').join(__dirname, './coverage/BooksCRUD'),
       subdir: '.',
       reporters: [
         { type: 'html' },
